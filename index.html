@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo da Bocha - Esporte e Tradição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>Mundo da Bocha 🔴🔵</h1>
+        <p>Aprenda as regras, a história e acompanhe suas partidas de bocha!</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>O que é a Bocha?</h2>
+            <p>A <strong>bocha</strong> é um esporte clássico de precisão no qual o objetivo principal é lançar bochas (bolas maiores) o mais perto possível do <em>balim</em> (uma pequena bola alvo de cor diferente).</p>
+        </section>
+
+        <section class="card">
+            <h2>Regras Básicas</h2>
+            <ul>
+                <li><strong>O Balim:</strong> O jogo começa lançando o balim para determinar o ponto de referência.</li>
+                <li><strong>Lançamentos:</strong> Os jogadores ou equipes se alternam lançando suas bochas.</li>
+                <li><strong>Pontuação:</strong> Apenas a equipe com a bocha mais próxima do balim pontua na rodada, somando pontos para cada bola mais perto que a melhor do adversário.</li>
+                <li><strong>Cancha:</strong> O espaço de jogo pode ser de terra batida, carpete ou piso sintético.</li>
+            </ul>
+        </section>
+
+        <section class="card placar-section">
+            <h2>Placar do Jogo</h2>
+            <div class="placar">
+                <div class="time">
+                    <h3>Time Vermelho 🔴</h3>
+                    <p id="pontos-vermelho" class="pontuacao">0</p>
+                    <button onclick="alterarPontos('vermelho', 1)">+1 Ponto</button>
+                    <button onclick="alterarPontos('vermelho
